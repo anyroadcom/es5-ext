@@ -23,18 +23,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/medikoo/es5-ext.git"
+    "url": "git://github.com/anyroadcom/es5-ext.git"
   },
-  "dependencies": {
-    "es5-shim": "^3.0.0",
-    "es6-iterator": "~0.1.1",
-    "es6-symbol": "0.1.x"
-  },
-  "devDependencies": {
-    "tad": "0.2.x"
-  },
-  "scripts": {
-    "test": "node ./node_modules/tad/bin/tad"
-  },
-  "licence": "MIT"
+  "main": "bundle.js"
 }
